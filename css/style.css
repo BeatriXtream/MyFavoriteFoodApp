@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content:center;
+}
+
+.container{
+    border: 2px solid black;
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container3{
+    display: grid;
+    border: 2px solid black;
+    justify-content: right;
+    grid-template-rows: 1fr;
+    grid-gap: 20;
+}
